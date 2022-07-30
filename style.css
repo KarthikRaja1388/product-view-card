@@ -92,7 +92,6 @@ body{
         transform: translate(-50%, -50%);
     }
     .product-image-container{
-        flex: 1;
         width: 50%;
     }
     .product-image{
@@ -100,8 +99,7 @@ body{
         border-radius: 0.5em 0 0 0.5em;
     }
     .product-text{
-        flex: 1;
-        width: 50%;
+        max-width: 50%;
         border-radius: 0 0.5em 0.5em 0;
     }
     .btn-add-to-cart:hover{
